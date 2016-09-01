@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-navbar>
+    <ion-buttons end>
+      <button (click)="close()">
+        Cancel
+      </button>
+    </ion-buttons>
+    <ion-title>Modal Page</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home">
+  <h2>Welcome to Ionic!</h2>
+  <p>
+    <button block (click)="loadAndDismissOne()">
+      Load and Dismiss 1
+    </button>
+    <button block (click)="loadAndDismissTwo()">
+      Load and Dismiss 2
+    </button>
+  </p>
+</ion-content>
